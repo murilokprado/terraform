@@ -49,3 +49,6 @@ ssh-keygen -f aws-key
 
 // Acessar via ssh a instancia criada na azure com a key acima
 ssh -i azure-key ubuntu@IP
+
+// para o repo conditional-expression é necessário criar a variável
+export TF_VAR_environment=prod
