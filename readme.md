@@ -17,17 +17,17 @@ export ARM_CLIENT_SECRET=
 // iniciar o repo do terraform
 terraform init
 
-// criar o plano de execucao
-terraform plan
-
-// criar um arquivo com o plano de execucao
-terraform plan -out=plan.out
-
 // formatar o codigo
 terraform fmt
 
 // validar o codigo criado
 terraform validate
+
+// criar o plano de execucao
+terraform plan
+
+// criar um arquivo com o plano de execucao
+terraform plan -out=plan.out
 
 // executar o terraform
 terraform apply 
@@ -43,3 +43,9 @@ ssh-keygen -f aws-key
 
 // Acessar via ssh a instancia criada na aws com a key acima
 ssh -i aws-key ubuntu@IP
+
+// gerar chave publica para utilizar no azure-vm-vnet-remote-state
+ssh-keygen -f aws-key
+
+// Acessar via ssh a instancia criada na azure com a key acima
+ssh -i azure-key ubuntu@IP

@@ -2,4 +2,4 @@
 *.out
 *.tfstate*
 *.pub
-aws-key
+*-key
