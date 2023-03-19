@@ -37,3 +37,9 @@ terraform apply plan.out
 
 // destruir os recursos criados
 terraform destroy
+
+// gerar chave publica para utilizar no aws-vm-vpc-remote-state
+ssh-keygen -f aws-key
+
+// Acessar via ssh a instancia criada na aws com a key acima
+ssh -i aws-key ubuntu@IP

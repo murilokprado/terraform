@@ -1,3 +1,5 @@
 *.terraform*
 *.out
 *.tfstate*
+*.pub
+aws-key
