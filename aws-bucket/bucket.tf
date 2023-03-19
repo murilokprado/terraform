@@ -1,3 +1,4 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = "exemplo-curso-terraform-mp-2"
+  bucket = "curso-terraform-mp-remote-state"
+  force_destroy = true
 }
