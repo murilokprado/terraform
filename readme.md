@@ -26,6 +26,9 @@ terraform plan -out=plan.out
 // formatar o codigo
 terraform fmt
 
+// validar o codigo criado
+terraform validate
+
 // executar o terraform
 terraform apply 
 

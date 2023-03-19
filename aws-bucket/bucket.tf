@@ -1,3 +1,3 @@
-resource "aws_s3_bucket" "first_bucket" {
+resource "aws_s3_bucket" "bucket" {
   bucket = "exemplo-curso-terraform-mp-2"
 }
