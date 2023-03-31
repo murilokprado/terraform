@@ -52,3 +52,5 @@ ssh -i azure-key ubuntu@IP
 
 // para o repo conditional-expression é necessário criar a variável
 export TF_VAR_environment=prod
+
+// Para o pipeline do Github funcionar é necessário o aws-vpc / azure-vnet / aws-azure-remote-state estarem em execucao
