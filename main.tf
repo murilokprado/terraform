@@ -12,7 +12,7 @@ terraform {
     resource_group_name  = "remote-state"
     storage_account_name = "remotestatemkp"
     container_name       = "remote-state"
-    key                  = "pipeline-gitlab-ci/terraform.tfstate"
+    key                  = "pipeline-github-ci/terraform.tfstate"
   }
 }
 
